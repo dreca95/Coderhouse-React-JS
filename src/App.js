@@ -1,18 +1,16 @@
-import logo from './logo.jpg';
+
 import './App.css';
 import {NavBar} from './components/NavBar/NavBar'
+import {ItemListContainer} from './components/ItemListContainer'
 
 function App() {
   return (
     <div className="App">
      <NavBar />
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-         eCommerce en construcción.
-        </p>
+    <ItemListContainer greeting={'PrrStore en construcción'}/>
+        
       
-      </header>
+     
     </div>
   );
 }
